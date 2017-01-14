@@ -46,7 +46,6 @@
 </template>
 
 <script>
- import Hello from './components/Hello'
  import HeaderNavBar from './components/HeaderNavBar.vue'
  import MainSideBar from './components/MainSideBar.vue'
  import ContentHeader from './components/ContentHeader.vue'

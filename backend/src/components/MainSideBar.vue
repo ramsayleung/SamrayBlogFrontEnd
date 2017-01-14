@@ -47,3 +47,6 @@
       <!-- /.sidebar-menu -->
     </section>
 </template>
+
+<script>
+</script>
