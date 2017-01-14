@@ -28,12 +28,13 @@
       <!-- Content Header (Page header) -->
       <content-header></content-header>
       <!-- Main content -->
+      <router-view></router-view>
       <!-- /.content -->
         </div>
         <!-- /.content-wrapper -->
 
         <!-- Main Footer -->
-        <my-footer></my-footer>
+        <my-footer content="Do whatever you want" time="2016" company="Samray" ></my-footer>
         <!-- Main Footer End-->
         <!-- Control Sidebar -->
         <control-sidebar></control-sidebar>

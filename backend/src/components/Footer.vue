@@ -2,9 +2,14 @@
   <footer class="main-footer">
     <!-- To the right -->
     <div class="pull-right hidden-xs">
-      Anything you want
+     {{content}} 
     </div>
     <!-- Default to the left -->
-    <strong>Copyright &copy; 2016 <a href="#">Company</a>.</strong> All rights reserved.
+    <strong>Copyright &copy; {{time}} <a href="#">{{company}}</a>.</strong> All rights reserved.
   </footer>
 </template>
+<script>
+  export default{
+  props:['content','company','time'],
+  }
+</script>

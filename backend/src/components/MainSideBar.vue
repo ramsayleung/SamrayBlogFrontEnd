@@ -32,6 +32,10 @@
         <!-- Optionally, you can add icons to the links -->
         <li class="active"><a href="#"><i class="fa fa-link"></i> <span>Link</span></a></li>
         <li><a href="#"><i class="fa fa-link"></i> <span>Another Link</span></a></li>
+        <li>
+           <router-link to="/post"><i class="fa fa-link"></i> <span>Post</span></router-link> 
+            
+        </li>
         <li class="treeview">
           <a href="#"><i class="fa fa-link"></i> <span>Multilevel</span>
             <span class="pull-right-container">
@@ -48,5 +52,3 @@
     </section>
 </template>
 
-<script>
-</script>
