@@ -6,7 +6,7 @@ import router from './routes';
 var Vue = setting.Vue;
 import App from './App';
 /* eslint-disable no-new */
-new Vue({
+var app = new Vue({
   el: '#app',
   router,
   template: '<App/>',
