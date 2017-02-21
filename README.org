@@ -14,31 +14,31 @@
    Thus,i stop my job.But 2-month work still is worth to say something
    Plus:I am not a frontend guy
 ** Project Structure
-   ├── build //build service and webpack configuration
-   ├── config //configuration for different environment
-   ├── dist //build directory
-   ├── index.html //project entry
-   ├── node_modules //dependency
-   ├── src
-   │   ├── App.vue //main page
-   │   ├── assets //source
-   │   ├── bootstrap
-   │   ├── bootstrap.js //bootstrap configuration
-   │   ├── components
-   │   │   ├── admin //components for admin page
-   │   │   └── frontend //components for blog display page
-   │   ├── js //js directory
-   │   ├── main.js //project entry
-   │   ├── package.json //project configuration
-   │   ├── plugins
-   │   └── routes.js //routes file
+   + ├── build //build service and webpack configuration
+   + ├── config //configuration for different environment
+   + ├── dist //build directory
+   + ├── index.html //project entry
+   + ├── node_modules //dependency
+   + ├── src
+   + │   ├── App.vue //main page
+   + │   ├── assets //source
+   + │   ├── bootstrap
+   + │   ├── bootstrap.js //bootstrap configuration
+   + │   ├── components
+   + │   │   ├── admin //components for admin page
+   + │   │   └── frontend //components for blog display page
+   + │   ├── js //js directory
+   + │   ├── main.js //project entry
+   + │   ├── package.json //project configuration
+   + │   ├── plugins
+   + │   └── routes.js //routes file
 ** What i use
-   vue-cli
-   vue
-   vue-router
-   webpack
-   babel
-   axios
-   bootstrap
+   + vue-cli
+   + vue
+   + vue-router
+   + webpack
+   + babel
+   + axios
+   + bootstrap
 ** Plus Plus
    For my first vue.js project
