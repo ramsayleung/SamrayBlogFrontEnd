@@ -7,6 +7,7 @@ import Setting from './components/admin/Setting.vue';
 import DetailedPost from './components/frontend/Post.vue';
 import Home from './components/frontend/Home.vue';
 import Login from './components/admin/Login.vue';
+import MainFraim from './components/admin/MainFrame.vue';
 let routes = [{
   path: '/admin/table',
   component: Table
@@ -30,7 +31,7 @@ let routes = [{
   component: DetailedPost
 }, {
   path: '/',
-  component: Home
+  component: MainFraim
 }, {
   path: '/home',
   component: Home

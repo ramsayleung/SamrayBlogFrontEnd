@@ -1,35 +1,35 @@
 <template>
-  <div class="wrapper">
+    <div class="wrapper">
 
-    <!-- Main Header -->
-    <header class="main-header">
+        <!-- Main Header -->
+        <header class="main-header">
 
-      <!-- Logo -->
-      <a href="index2.html" class="logo">
-        <!-- mini logo for sidebar mini 50x50 pixels -->
-        <span class="logo-mini"><b>A</b>LT</span>
-        <!-- logo for regular state and mobile devices -->
-        <span class="logo-lg"><b>Admin</b>LTE</span>
-      </a>
+            <!-- Logo -->
+            <a href="index2.html" class="logo">
+                <!-- mini logo for sidebar mini 50x50 pixels -->
+                <span class="logo-mini"><b>A</b>LT</span>
+                <!-- logo for regular state and mobile devices -->
+                <span class="logo-lg"><b>Samray</b>Blog</span>
+            </a>
 
-      <!-- Header Navbar -->
-      <header-navbar></header-navbar>
-      <!-- Header Navbar End-->
-    </header>
-    <!-- Left side column. contains the logo and sidebar -->
-    <aside class="main-sidebar">
+            <!-- Header Navbar -->
+            <header-navbar></header-navbar>
+            <!-- Header Navbar End-->
+        </header>
+        <!-- Left side column. contains the logo and sidebar -->
+        <aside class="main-sidebar">
 
-      <main-sidebar></main-sidebar>
-      <!-- /.sidebar -->
-    </aside>
+            <main-sidebar></main-sidebar>
+            <!-- /.sidebar -->
+        </aside>
 
-    <!-- Content Wrapper. Contains page content -->
-    <div class="content-wrapper">
-      <!-- Content Header (Page header) -->
-      <content-header></content-header>
-      <!-- Main content -->
-      <router-view></router-view>
-      <!-- /.content -->
+        <!-- Content Wrapper. Contains page content -->
+        <div class="content-wrapper">
+            <!-- Content Header (Page header) -->
+            <content-header></content-header>
+            <!-- Main content -->
+            <router-view></router-view>
+            <!-- /.content -->
         </div>
         <!-- /.content-wrapper -->
 
@@ -44,7 +44,7 @@
         <div class="control-sidebar-bg"></div>
     </div>
     <!-- ./wrapper -->
-</template>
+  </template>
 
 <script>
  import HeaderNavBar from '../admin/HeaderNavBar.vue'
@@ -69,9 +69,9 @@
    }
  }
 
-</script>
+  </script>
 
 <style>
 
 
-</style>
+  </style>
