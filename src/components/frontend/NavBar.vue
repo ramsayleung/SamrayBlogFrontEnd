@@ -14,6 +14,7 @@
         <!-- <li class="w3-hide-small"><a href="/detailedpost" class="w3-padding-large">BAND</a></li> -->
         <li class="w3-hide-small"><a href="#tour" class="w3-padding-large">TOUR</a></li>
         <li class="w3-hide-small"><a href="#contact" class="w3-padding-large">CONTACT</a></li>
+        <li><router-link to="/admin/login" class="w3-padding-large">Login</router-link></li>
         <li class="w3-hide-small w3-dropdown-hover">
           <a href="javascript:void(0)" class="w3-hover-none w3-padding-large" title="More">MORE <i class="fa fa-caret-down"></i></a>
           <div class="w3-dropdown-content w3-white w3-card-4">

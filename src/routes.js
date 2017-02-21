@@ -6,24 +6,31 @@ import Tag from './components/admin/Tag.vue';
 import Setting from './components/admin/Setting.vue';
 import DetailedPost from './components/frontend/Post.vue';
 import Home from './components/frontend/Home.vue';
+import Login from './components/admin/Login.vue';
 let routes = [{
-  path: '/table',
+  path: '/admin/table',
   component: Table
 }, {
-  path: '/post',
+  path: '/admin/post',
   component: Post
 }, {
-  path: '/editor',
+  path: '/admin/editor',
   component: Editor
 }, {
-  path: '/tag',
+  path: '/admin/tag',
   component: Tag
 }, {
-  path: '/setting',
+  path: '/admin/setting',
   component: Setting
+}, {
+  path: '/admin/login',
+  component: Login
 }, {
   path: '/detailedpost',
   component: DetailedPost
+}, {
+  path: '/',
+  component: Home
 }, {
   path: '/home',
   component: Home

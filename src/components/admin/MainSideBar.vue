@@ -30,19 +30,19 @@
     <ul class="sidebar-menu">
       <li class="header">HEADER</li>
       <li>
-        <router-link to="/table"><i class="fa fa-table"></i> <span>文章管理</span></router-link> 
+        <router-link to="/admin/table"><i class="fa fa-table"></i> <span>文章管理</span></router-link> 
       </li>
       <li>
-        <router-link to="/post"><i class="fa fa-pencil"></i> <span>发布文章</span></router-link> 
+        <router-link to="/admin/post"><i class="fa fa-pencil"></i> <span>发布文章</span></router-link> 
       </li>
       <li>
-        <router-link to="/tag"><i class="fa fa-tags"></i> <span>标签管理</span></router-link> 
+        <router-link to="/admin/tag"><i class="fa fa-tags"></i> <span>标签管理</span></router-link> 
       </li>
       <li>
-        <router-link to="/editor"><i class="fa fa-tags"></i> <span>Editor</span></router-link> 
+        <router-link to="/admin/editor"><i class="fa fa-tags"></i> <span>Editor</span></router-link> 
       </li>
       <li>
-        <router-link to="/setting"><i class="fa fa-wrench"></i> <span>博客设置</span></router-link> 
+        <router-link to="/admin/setting"><i class="fa fa-wrench"></i> <span>博客设置</span></router-link> 
       </li>
       <li class="treeview">
         <a href="#"><i class="fa fa-link"></i> <span>Multilevel</span>

@@ -1,0 +1,44 @@
+* SamrayBlog
+  SamrayBlog is a clear-design blog system implements with vue.js and spring boot.And this repo
+  is the frontend code of SamrayBlog.Before ,because i am keep looking for a blog 
+  system that is suitable for my workflow,i have try hexo and jekyll,but i am not
+  satisfied  with these blog system.So i decide to write it by myself.Vue is 
+  so popular,and i have learned it for a while,i decide to use it in my project.
+** Demo
+   [[./images/blog_demo.png]]
+   this is the demo of my upcoming blog system,but i have stopped to develop
+   my blog,because,after 2-month development,i have finish almost 70% code.
+   And finaly ,i find the perfectly suitable blog system for me :[[https://github.com/kelvinh/org-page][org-page]]  
+   which is a static site generator based on Emacs and org mode.I am an Emacser.
+   The typical Emacser is who wanna do everything in his/her Emacs,so do i.
+   Thus,i stop my job.But 2-month work still is worth to say something
+   Plus:I am not a frontend guy
+** Project Structure
+   ├── build //build service and webpack configuration
+   ├── config //configuration for different environment
+   ├── dist //build directory
+   ├── index.html //project entry
+   ├── node_modules //dependency
+   ├── src
+   │   ├── App.vue //main page
+   │   ├── assets //source
+   │   ├── bootstrap
+   │   ├── bootstrap.js //bootstrap configuration
+   │   ├── components
+   │   │   ├── admin //components for admin page
+   │   │   └── frontend //components for blog display page
+   │   ├── js //js directory
+   │   ├── main.js //project entry
+   │   ├── package.json //project configuration
+   │   ├── plugins
+   │   └── routes.js //routes file
+** What i use
+   vue-cli
+   vue
+   vue-router
+   webpack
+   babel
+   axios
+   bootstrap
+** Plus Plus
+   For my first vue.js project
