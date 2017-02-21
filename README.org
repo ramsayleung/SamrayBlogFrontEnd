@@ -4,7 +4,7 @@
   system that is suitable for my workflow,i have try hexo and jekyll,but i am not
   satisfied  with these blog system.So i decide to write it by myself.Vue is 
   so popular,and i have learned it for a while,i decide to use it in my project.
-** Demo
+** Screenshot
    [[./images/blog_demo.png]]
    this is the demo of my upcoming blog system,but i have stopped to develop
    my blog,because,after 2-month development,i have finish almost 70% code.
