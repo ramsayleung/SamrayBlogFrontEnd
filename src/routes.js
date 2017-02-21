@@ -31,7 +31,7 @@ let routes = [{
   component: DetailedPost
 }, {
   path: '/',
-  component: MainFraim
+  component: Home
 }, {
   path: '/home',
   component: Home
